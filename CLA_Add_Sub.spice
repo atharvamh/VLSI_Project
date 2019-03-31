@@ -1,0 +1,1189 @@
+* SPICE3 file created from CLA_Add_Sub.ext - technology: scmos
+
+.option scale=0.055u
+
+M1000 Vss B3 a_31_699# Vss nmos w=9 l=2
++  ad=18576 pd=7012 as=57 ps=32
+M1001 a_56_704# add_sub Vss Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1002 a_48_583# B3 a_56_704# Vss nmos w=9 l=2
++  ad=87 pd=40 as=0 ps=0
+M1003 a_76_704# a_31_699# a_48_583# Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1004 Vss a_56_704# a_76_704# Vss nmos w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 a_74_593# A3 Vss Vss nmos w=8 l=2
++  ad=81 pd=40 as=0 ps=0
+M1006 Vss a_48_583# a_74_593# Vss nmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1007 Vss a_142_664# a_135_673# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1008 a_157_701# a_34_593# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1009 a_142_664# a_67_601# a_157_701# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1010 Vdd B3 a_31_699# Vdd pmos w=27 l=2
++  ad=28676 pd=9724 as=294 ps=136
+M1011 a_56_704# add_sub Vdd Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1012 a_48_583# a_31_699# a_56_704# Vdd pmos w=18 l=2
++  ad=189 pd=70 as=0 ps=0
+M1013 a_31_699# a_56_704# a_48_583# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 a_111_659# A3 a_74_593# Vdd pmos w=28 l=2
++  ad=140 pd=66 as=166 ps=70
+M1015 Vdd a_48_583# a_111_659# Vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 Vdd a_142_664# a_135_673# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1017 Vss a_179_682# a_179_699# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1018 a_204_704# a_135_673# Vss Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1019 S3 a_179_682# a_204_704# Vss nmos w=9 l=2
++  ad=87 pd=40 as=0 ps=0
+M1020 a_224_704# a_179_699# S3 Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1021 Vss a_204_704# a_224_704# Vss nmos w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 a_264_699# a_55_295# a_255_707# Vss nmos w=20 l=2
++  ad=100 pd=50 as=112 ps=54
+M1023 a_271_699# a_113_236# a_264_699# Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1024 a_278_699# a_138_157# a_271_699# Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1025 Vss a_102_131# a_278_699# Vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 Vss a_255_707# a_239_615# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1027 a_373_322# a_442_530# Vss Vss nmos w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1028 Vss a_442_530# a_373_322# Vss nmos w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1029 Vss a_513_598# a_535_699# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1030 a_560_704# a_532_596# Vss Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1031 S4 a_513_598# a_560_704# Vss nmos w=9 l=2
++  ad=87 pd=40 as=0 ps=0
+M1032 a_580_704# a_535_699# S4 Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1033 Vss a_560_704# a_580_704# Vss nmos w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 a_142_664# a_34_593# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1035 Vdd a_67_601# a_142_664# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 Vdd a_179_682# a_179_699# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=294 ps=136
+M1037 a_204_704# a_135_673# Vdd Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1038 S3 a_179_699# a_204_704# Vdd pmos w=18 l=2
++  ad=189 pd=70 as=0 ps=0
+M1039 a_179_699# a_204_704# S3 Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1040 Vss a_467_229# a_559_589# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1041 a_467_229# A4 Vss Vss nmos w=15 l=2
++  ad=120 pd=46 as=0 ps=0
+M1042 Vss a_593_610# a_467_229# Vss nmos w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1043 a_255_707# a_55_295# Vdd Vdd pmos w=17 l=2
++  ad=272 pd=100 as=0 ps=0
+M1044 Vdd a_113_236# a_255_707# Vdd pmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1045 a_255_707# a_138_157# Vdd Vdd pmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 Vdd a_102_131# a_255_707# Vdd pmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1047 Vdd a_255_707# a_239_615# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1048 a_373_322# a_442_530# Vdd Vdd pmos w=24 l=2
++  ad=168 pd=64 as=0 ps=0
+M1049 Vdd a_442_530# a_373_322# Vdd pmos w=16 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 Vdd a_513_598# a_535_699# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=294 ps=136
+M1051 a_560_704# a_532_596# Vdd Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1052 S4 a_535_699# a_560_704# Vdd pmos w=18 l=2
++  ad=189 pd=70 as=0 ps=0
+M1053 a_535_699# a_560_704# S4 Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 Vdd a_467_229# a_559_589# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1055 a_643_659# a_593_610# Vdd Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1056 a_467_229# A4 a_643_659# Vdd pmos w=27 l=2
++  ad=216 pd=70 as=0 ps=0
+M1057 a_660_659# A4 a_467_229# Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1058 Vdd a_593_610# a_660_659# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1059 a_34_593# A3 Vdd Vdd pmos w=24 l=2
++  ad=192 pd=64 as=0 ps=0
+M1060 Vdd a_48_583# a_34_593# Vdd pmos w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1061 Vdd a_74_593# a_67_601# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1062 Vdd a_102_592# a_95_596# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1063 a_102_592# a_55_295# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1064 Vdd a_38_322# a_102_592# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1065 Vdd a_146_592# a_139_600# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1066 a_146_592# a_42_11# Vdd Vdd pmos w=13 l=2
++  ad=195 pd=82 as=0 ps=0
+M1067 Vdd a_113_236# a_146_592# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1068 a_43_587# A3 a_34_593# Vss nmos w=20 l=2
++  ad=100 pd=50 as=112 ps=54
+M1069 Vss a_48_583# a_43_587# Vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 Vss a_74_593# a_67_601# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1071 a_146_592# a_55_295# Vdd Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1072 a_220_620# a_95_596# Vdd Vdd pmos w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1073 a_227_620# a_139_600# a_220_620# Vdd pmos w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1074 a_234_620# a_34_483# a_227_620# Vdd pmos w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1075 a_179_682# a_239_615# a_234_620# Vdd pmos w=25 l=2
++  ad=179 pd=66 as=0 ps=0
+M1076 a_251_620# a_239_615# a_179_682# Vdd pmos w=18 l=2
++  ad=90 pd=46 as=0 ps=0
+M1077 a_258_620# a_34_483# a_251_620# Vdd pmos w=18 l=2
++  ad=90 pd=46 as=0 ps=0
+M1078 a_265_620# a_139_600# a_258_620# Vdd pmos w=18 l=2
++  ad=90 pd=46 as=0 ps=0
+M1079 Vdd a_95_596# a_265_620# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 Vss a_102_592# a_95_596# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1081 a_117_594# a_55_295# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1082 a_102_592# a_38_322# a_117_594# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1083 Vss a_146_592# a_139_600# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1084 a_161_593# a_42_11# Vss Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1085 a_168_593# a_113_236# a_161_593# Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1086 a_146_592# a_55_295# a_168_593# Vss nmos w=13 l=2
++  ad=77 pd=40 as=0 ps=0
+M1087 a_513_598# a_373_322# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1088 Vdd a_539_592# a_532_596# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1089 a_539_592# a_385_329# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1090 Vdd a_559_589# a_539_592# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1091 a_385_329# A4 Vdd Vdd pmos w=24 l=2
++  ad=192 pd=64 as=0 ps=0
+M1092 Vdd a_593_610# a_385_329# Vdd pmos w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1093 a_179_682# a_95_596# Vss Vss nmos w=6 l=2
++  ad=96 pd=56 as=0 ps=0
+M1094 Vss a_139_600# a_179_682# Vss nmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1095 a_179_682# a_34_483# Vss Vss nmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1096 Vss a_239_615# a_179_682# Vss nmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1097 a_513_598# a_373_322# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1098 a_593_610# a_621_611# a_614_635# Vdd pmos w=27 l=2
++  ad=189 pd=70 as=294 ps=136
+M1099 a_621_611# a_614_635# a_593_610# Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1100 Vdd add_sub a_621_611# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1101 a_614_635# B4 Vdd Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 Vss a_539_592# a_532_596# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1103 a_554_594# a_385_329# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1104 a_539_592# a_559_589# a_554_594# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1105 a_589_587# A4 Vss Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1106 a_385_329# a_593_610# a_589_587# Vss nmos w=20 l=2
++  ad=112 pd=54 as=0 ps=0
+M1107 a_624_590# a_621_611# Vss Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1108 a_593_610# a_614_635# a_624_590# Vss nmos w=12 l=2
++  ad=87 pd=40 as=0 ps=0
+M1109 a_621_611# B4 a_593_610# Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1110 Vss add_sub a_621_611# Vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1111 a_614_635# B4 Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1112 Vss B2 a_31_555# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1113 a_56_560# add_sub Vss Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1114 a_38_466# B2 a_56_560# Vss nmos w=9 l=2
++  ad=87 pd=40 as=0 ps=0
+M1115 a_76_560# a_31_555# a_38_466# Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1116 Vss a_56_560# a_76_560# Vss nmos w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1117 a_111_555# a_38_466# a_55_295# Vss nmos w=20 l=2
++  ad=100 pd=50 as=112 ps=54
+M1118 Vss A2 a_111_555# Vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1119 a_166_515# a_164_511# Vss Vss nmos w=10 l=2
++  ad=142 pd=70 as=0 ps=0
+M1120 Vss a_38_322# a_166_515# Vss nmos w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1121 a_166_515# a_143_546# Vss Vss nmos w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 Vdd B2 a_31_555# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=294 ps=136
+M1123 a_56_560# add_sub Vdd Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1124 a_38_466# a_31_555# a_56_560# Vdd pmos w=18 l=2
++  ad=189 pd=70 as=0 ps=0
+M1125 a_31_555# a_56_560# a_38_466# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 a_225_556# a_138_157# a_211_524# Vss nmos w=13 l=2
++  ad=65 pd=36 as=77 ps=40
+M1127 a_232_556# a_113_236# a_225_556# Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1128 Vss a_102_131# a_232_556# Vss nmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1129 a_164_511# a_211_524# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1130 a_55_295# a_38_466# Vdd Vdd pmos w=24 l=2
++  ad=192 pd=64 as=0 ps=0
+M1131 Vdd A2 a_55_295# Vdd pmos w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1132 a_152_515# a_143_546# Vdd Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1133 a_159_515# a_38_322# a_152_515# Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1134 a_166_515# a_164_511# a_159_515# Vdd pmos w=28 l=2
++  ad=224 pd=72 as=0 ps=0
+M1135 a_176_515# a_164_511# a_166_515# Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1136 a_183_515# a_38_322# a_176_515# Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1137 Vdd a_143_546# a_183_515# Vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1138 Vss a_271_242# a_442_530# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1139 a_467_439# a_467_229# Vss Vss nmos w=15 l=2
++  ad=120 pd=46 as=0 ps=0
+M1140 Vss a_513_554# a_467_439# Vss nmos w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1141 Vdd a_138_157# a_211_524# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=195 ps=82
+M1142 a_211_524# a_113_236# Vdd Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1143 Vdd a_102_131# a_211_524# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 a_164_511# a_211_524# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1145 Vdd a_271_242# a_442_530# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1146 a_567_557# a_373_322# a_558_562# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1147 Vss a_385_329# a_567_557# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 a_513_554# a_558_562# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1149 Vss a_522_181# a_537_445# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1150 a_522_181# a_561_448# Vss Vss nmos w=15 l=2
++  ad=120 pd=46 as=0 ps=0
+M1151 Vss A5 a_522_181# Vss nmos w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1152 a_519_515# a_513_554# Vdd Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1153 a_467_439# a_467_229# a_519_515# Vdd pmos w=27 l=2
++  ad=216 pd=70 as=0 ps=0
+M1154 a_536_515# a_467_229# a_467_439# Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1155 Vdd a_513_554# a_536_515# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1156 a_558_562# a_373_322# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1157 Vdd a_385_329# a_558_562# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1158 a_513_554# a_558_562# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1159 Vdd a_522_181# a_537_445# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1160 a_643_515# A5 Vdd Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1161 a_522_181# a_561_448# a_643_515# Vdd pmos w=27 l=2
++  ad=216 pd=70 as=0 ps=0
+M1162 a_660_515# a_561_448# a_522_181# Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1163 Vdd A5 a_660_515# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 a_43_475# a_38_466# a_34_483# Vdd pmos w=28 l=2
++  ad=140 pd=66 as=166 ps=70
+M1165 Vdd A2 a_43_475# Vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1166 Vdd a_34_483# a_67_457# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1167 Vdd a_102_448# a_95_452# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1168 a_102_448# a_67_457# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1169 Vdd a_55_295# a_102_448# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1170 S2 a_158_467# a_151_491# Vdd pmos w=27 l=2
++  ad=189 pd=70 as=294 ps=136
+M1171 a_158_467# a_151_491# S2 Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1172 Vdd a_95_452# a_158_467# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1173 a_151_491# a_166_515# Vdd Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1174 a_219_450# a_113_236# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1175 Vdd a_42_11# a_219_450# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1176 a_34_483# a_38_466# Vss Vss nmos w=8 l=2
++  ad=81 pd=40 as=0 ps=0
+M1177 Vss A2 a_34_483# Vss nmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1178 Vss a_34_483# a_67_457# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1179 Vss a_102_448# a_95_452# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1180 a_117_450# a_67_457# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1181 a_102_448# a_55_295# a_117_450# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1182 a_161_446# a_158_467# Vss Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1183 S2 a_151_491# a_161_446# Vss nmos w=12 l=2
++  ad=87 pd=40 as=0 ps=0
+M1184 a_158_467# a_166_515# S2 Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1185 Vss a_95_452# a_158_467# Vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1186 a_151_491# a_166_515# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1187 a_143_546# a_219_450# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1188 S5 a_449_467# a_442_491# Vdd pmos w=27 l=2
++  ad=189 pd=70 as=294 ps=136
+M1189 a_449_467# a_442_491# S5 Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1190 Vdd a_469_471# a_449_467# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1191 a_442_491# a_467_439# Vdd Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1192 Vdd a_517_448# a_469_471# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1193 a_517_448# a_395_322# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1194 Vdd a_537_445# a_517_448# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1195 a_395_322# a_561_448# Vdd Vdd pmos w=18 l=2
++  ad=288 pd=104 as=0 ps=0
+M1196 Vdd a_561_448# a_395_322# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1197 a_395_322# A5 Vdd Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1198 Vdd A5 a_395_322# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1199 a_561_448# a_621_467# a_614_491# Vdd pmos w=27 l=2
++  ad=189 pd=70 as=294 ps=136
+M1200 a_621_467# a_614_491# a_561_448# Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1201 Vdd add_sub a_621_467# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1202 a_614_491# B5 Vdd Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1203 a_228_450# a_113_236# a_219_450# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1204 Vss a_42_11# a_228_450# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1205 a_143_546# a_219_450# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1206 a_452_446# a_449_467# Vss Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1207 S5 a_442_491# a_452_446# Vss nmos w=12 l=2
++  ad=87 pd=40 as=0 ps=0
+M1208 a_449_467# a_467_439# S5 Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1209 Vss a_469_471# a_449_467# Vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1210 a_442_491# a_467_439# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1211 Vss a_517_448# a_469_471# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1212 a_532_450# a_395_322# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1213 a_517_448# a_537_445# a_532_450# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1214 Vss a_561_448# a_554_457# Vss nmos w=11 l=2
++  ad=0 pd=0 as=296 ps=134
+M1215 a_554_457# a_561_448# Vss Vss nmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1216 a_395_322# A5 a_554_457# Vss nmos w=15 l=2
++  ad=120 pd=46 as=0 ps=0
+M1217 a_554_457# A5 a_395_322# Vss nmos w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1218 a_624_446# a_621_467# Vss Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1219 a_561_448# a_614_491# a_624_446# Vss nmos w=12 l=2
++  ad=87 pd=40 as=0 ps=0
+M1220 a_621_467# B5 a_561_448# Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1221 Vss add_sub a_621_467# Vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1222 a_614_491# B5 Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1223 a_46_418# a_34_483# Vss Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1224 a_42_380# A3 a_46_418# Vss nmos w=12 l=2
++  ad=72 pd=38 as=0 ps=0
+M1225 Vss a_74_376# a_67_380# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1226 a_89_413# a_42_380# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1227 a_74_376# a_31_339# a_89_413# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1228 Vss a_123_376# a_109_300# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1229 a_138_413# a_133_373# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1230 a_123_376# a_143_373# a_138_413# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1231 a_178_413# a_160_308# a_169_418# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1232 Vss a_179_308# a_178_413# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1233 a_198_380# a_169_418# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1234 a_42_380# a_34_483# Vdd Vdd pmos w=14 l=2
++  ad=112 pd=44 as=0 ps=0
+M1235 Vdd A3 a_42_380# Vdd pmos w=14 l=2
++  ad=0 pd=0 as=0 ps=0
+M1236 Vdd a_74_376# a_67_380# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=126 ps=50
+M1237 a_74_376# a_42_380# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1238 Vdd a_31_339# a_74_376# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1239 Vdd a_123_376# a_109_300# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1240 Vss a_198_380# a_133_373# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1241 Vss a_250_376# a_243_385# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1242 a_265_413# a_34_593# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1243 a_250_376# a_55_295# a_265_413# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1244 a_123_376# a_133_373# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1245 Vdd a_143_373# a_123_376# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1246 a_169_418# a_160_308# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1247 Vdd a_179_308# a_169_418# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1248 a_198_380# a_169_418# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1249 Vdd a_198_380# a_133_373# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1250 Vdd a_250_376# a_243_385# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1251 Vss a_294_374# a_279_301# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1252 a_309_412# a_113_236# Vss Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1253 a_316_412# a_102_131# a_309_412# Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1254 a_294_374# a_138_157# a_316_412# Vss nmos w=13 l=2
++  ad=77 pd=40 as=0 ps=0
+M1255 a_426_413# a_411_309# a_417_418# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1256 Vss a_430_402# a_426_413# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1257 a_446_380# a_417_418# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1258 a_250_376# a_34_593# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1259 Vdd a_55_295# a_250_376# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1260 Vdd a_294_374# a_279_301# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1261 Vss a_446_380# a_462_386# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1262 a_499_413# a_467_229# a_490_418# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1263 Vss a_395_322# a_499_413# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1264 a_517_322# a_490_418# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1265 Vss a_545_376# a_527_301# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1266 a_560_413# a_429_330# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1267 a_545_376# a_439_322# a_560_413# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1268 a_294_374# a_113_236# Vdd Vdd pmos w=13 l=2
++  ad=195 pd=82 as=0 ps=0
+M1269 Vdd a_102_131# a_294_374# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1270 a_294_374# a_138_157# Vdd Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1271 a_417_418# a_411_309# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1272 Vdd a_430_402# a_417_418# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1273 a_446_380# a_417_418# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1274 Vdd a_446_380# a_462_386# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1275 a_490_418# a_467_229# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1276 Vdd a_395_322# a_490_418# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1277 a_517_322# a_490_418# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1278 Vdd a_545_376# a_527_301# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1279 a_596_412# a_582_308# a_582_380# Vss nmos w=13 l=2
++  ad=65 pd=36 as=77 ps=40
+M1280 a_603_412# a_537_42# a_596_412# Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1281 Vss a_607_402# a_603_412# Vss nmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1282 Cout a_582_380# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1283 a_650_411# a_429_330# Vss Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1284 a_657_411# a_439_322# a_650_411# Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1285 a_605_330# a_522_181# a_657_411# Vss nmos w=20 l=2
++  ad=112 pd=54 as=0 ps=0
+M1286 a_545_376# a_429_330# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1287 Vdd a_439_322# a_545_376# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1288 Vdd a_582_308# a_582_380# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=195 ps=82
+M1289 a_582_380# a_537_42# Vdd Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1290 Vdd a_607_402# a_582_380# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1291 Cout a_582_380# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1292 a_605_330# a_429_330# Vdd Vdd pmos w=20 l=2
++  ad=286 pd=110 as=0 ps=0
+M1293 Vdd a_439_322# a_605_330# Vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1294 a_605_330# a_522_181# Vdd Vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1295 Vdd a_38_322# a_31_339# Vdd pmos w=20 l=2
++  ad=0 pd=0 as=286 ps=110
+M1296 a_31_339# a_34_593# Vdd Vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1297 Vdd a_55_295# a_31_339# Vdd pmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1298 Vdd a_82_304# co1 Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1299 a_82_304# a_67_380# Vdd Vdd pmos w=13 l=2
++  ad=195 pd=82 as=0 ps=0
+M1300 Vdd a_67_601# a_82_304# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1301 a_82_304# a_109_300# Vdd Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1302 a_131_306# a_34_593# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1303 Vdd a_55_295# a_131_306# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1304 a_43_299# a_38_322# a_31_339# Vss nmos w=20 l=2
++  ad=100 pd=50 as=112 ps=54
+M1305 a_50_299# a_34_593# a_43_299# Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1306 Vss a_55_295# a_50_299# Vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1307 Vss a_82_304# co1 Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1308 a_97_305# a_67_380# Vss Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1309 a_104_305# a_67_601# a_97_305# Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1310 a_82_304# a_109_300# a_104_305# Vss nmos w=13 l=2
++  ad=77 pd=40 as=0 ps=0
+M1311 a_160_308# a_131_306# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1312 Vdd a_186_304# a_179_308# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1313 a_186_304# a_113_236# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1314 Vdd a_42_11# a_186_304# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1315 a_143_373# a_230_322# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1316 Vdd a_259_304# a_230_322# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1317 a_259_304# a_243_385# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1318 Vdd a_279_301# a_259_304# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1319 Vdd a_373_322# a_370_337# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=195 ps=82
+M1320 a_370_337# a_385_329# Vdd Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1321 Vdd a_395_322# a_370_337# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1322 a_140_306# a_34_593# a_131_306# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1323 Vss a_55_295# a_140_306# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1324 a_160_308# a_131_306# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1325 Vss a_186_304# a_179_308# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1326 a_201_306# a_113_236# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1327 a_186_304# a_42_11# a_201_306# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1328 a_143_373# a_230_322# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1329 a_411_309# a_370_337# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1330 a_426_306# a_429_330# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1331 Vdd a_439_322# a_426_306# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1332 Vss a_259_304# a_230_322# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1333 a_274_306# a_243_385# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1334 a_259_304# a_279_301# a_274_306# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1335 a_384_305# a_373_322# a_370_337# Vss nmos w=13 l=2
++  ad=65 pd=36 as=77 ps=40
+M1336 a_391_305# a_385_329# a_384_305# Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1337 Vss a_395_322# a_391_305# Vss nmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1338 a_411_309# a_370_337# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1339 a_430_402# a_426_306# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1340 a_483_310# a_477_322# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1341 Vdd a_507_304# a_477_322# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1342 a_507_304# a_517_322# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1343 Vdd a_527_301# a_507_304# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1344 a_553_306# a_462_386# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1345 Vdd a_483_310# a_553_306# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1346 a_435_306# a_429_330# a_426_306# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1347 Vss a_439_322# a_435_306# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1348 a_430_402# a_426_306# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1349 a_483_310# a_477_322# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1350 a_582_308# a_553_306# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1351 a_602_306# a_605_330# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1352 Vdd a_615_322# a_602_306# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1353 a_607_402# a_602_306# Vdd Vdd pmos w=18 l=2
++  ad=126 pd=50 as=0 ps=0
+M1354 a_615_322# A7 Vdd Vdd pmos w=14 l=2
++  ad=112 pd=44 as=0 ps=0
+M1355 Vdd a_447_88# a_615_322# Vdd pmos w=14 l=2
++  ad=0 pd=0 as=0 ps=0
+M1356 Vss a_507_304# a_477_322# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1357 a_522_306# a_517_322# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1358 a_507_304# a_527_301# a_522_306# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1359 a_562_306# a_462_386# a_553_306# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1360 Vss a_483_310# a_562_306# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1361 a_582_308# a_553_306# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1362 a_611_306# a_605_330# a_602_306# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1363 Vss a_615_322# a_611_306# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1364 a_607_402# a_602_306# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1365 a_654_300# A7 a_615_322# Vss nmos w=12 l=2
++  ad=60 pd=34 as=72 ps=38
+M1366 Vss a_447_88# a_654_300# Vss nmos w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1367 Vss B1 a_31_267# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1368 a_56_272# add_sub Vss Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1369 a_45_183# B1 a_56_272# Vss nmos w=9 l=2
++  ad=87 pd=40 as=0 ps=0
+M1370 a_76_272# a_31_267# a_45_183# Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1371 Vss a_56_272# a_76_272# Vss nmos w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1372 a_113_236# A1 a_104_275# Vss nmos w=15 l=2
++  ad=120 pd=46 as=296 ps=134
+M1373 a_104_275# A1 a_113_236# Vss nmos w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1374 Vss a_45_183# a_104_275# Vss nmos w=19 l=2
++  ad=0 pd=0 as=0 ps=0
+M1375 a_104_275# a_45_183# Vss Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1376 a_168_269# a_94_166# a_159_274# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1377 Vss a_113_236# a_168_269# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1378 a_188_236# a_159_274# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1379 Vss a_166_155# a_203_267# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1380 a_228_272# a_188_236# Vss Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1381 S1 a_166_155# a_228_272# Vss nmos w=9 l=2
++  ad=87 pd=40 as=0 ps=0
+M1382 a_248_272# a_203_267# S1 Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1383 Vss a_228_272# a_248_272# Vss nmos w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1384 Vss co1 a_271_242# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1385 Vss a_457_232# a_450_241# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1386 a_472_269# a_467_229# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1387 a_457_232# a_395_322# a_472_269# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1388 Vdd B1 a_31_267# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=294 ps=136
+M1389 a_56_272# add_sub Vdd Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1390 a_45_183# a_31_267# a_56_272# Vdd pmos w=18 l=2
++  ad=189 pd=70 as=0 ps=0
+M1391 a_31_267# a_56_272# a_45_183# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1392 a_113_236# A1 Vdd Vdd pmos w=18 l=2
++  ad=288 pd=104 as=0 ps=0
+M1393 Vdd A1 a_113_236# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1394 a_113_236# a_45_183# Vdd Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1395 Vdd a_45_183# a_113_236# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1396 a_159_274# a_94_166# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1397 Vdd a_113_236# a_159_274# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1398 a_188_236# a_159_274# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1399 Vdd a_166_155# a_203_267# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=294 ps=136
+M1400 a_228_272# a_188_236# Vdd Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1401 S1 a_203_267# a_228_272# Vdd pmos w=18 l=2
++  ad=189 pd=70 as=0 ps=0
+M1402 a_203_267# a_228_272# S1 Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1403 Vdd co1 a_271_242# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1404 Vdd a_457_232# a_450_241# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1405 Vss a_494_250# a_494_267# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1406 a_519_272# a_510_263# Vss Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1407 S6 a_494_250# a_519_272# Vss nmos w=9 l=2
++  ad=87 pd=40 as=0 ps=0
+M1408 a_539_272# a_494_267# S6 Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1409 Vss a_519_272# a_539_272# Vss nmos w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1410 a_583_269# a_429_330# a_574_274# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1411 Vss a_587_258# a_583_269# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1412 a_510_263# a_574_274# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1413 a_587_258# a_447_88# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1414 a_447_88# A6 Vss Vss nmos w=8 l=2
++  ad=81 pd=40 as=0 ps=0
+M1415 Vss a_593_178# a_447_88# Vss nmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1416 a_457_232# a_467_229# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1417 Vdd a_395_322# a_457_232# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1418 Vdd a_494_250# a_494_267# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=294 ps=136
+M1419 a_519_272# a_510_263# Vdd Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1420 S6 a_494_267# a_519_272# Vdd pmos w=18 l=2
++  ad=189 pd=70 as=0 ps=0
+M1421 a_494_267# a_519_272# S6 Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1422 a_574_274# a_429_330# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1423 Vdd a_587_258# a_574_274# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1424 a_510_263# a_574_274# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1425 a_587_258# a_447_88# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1426 a_657_227# A6 Vdd Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1427 a_447_88# a_593_178# a_657_227# Vdd pmos w=28 l=2
++  ad=166 pd=70 as=0 ps=0
+M1428 a_40_188# A1 Vdd Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1429 a_38_322# a_45_183# a_40_188# Vdd pmos w=27 l=2
++  ad=216 pd=70 as=0 ps=0
+M1430 a_57_188# a_45_183# a_38_322# Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1431 Vdd A1 a_57_188# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1432 a_94_166# a_38_322# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1433 Vdd a_118_160# a_111_164# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1434 a_118_160# a_102_131# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1435 Vdd a_138_157# a_118_160# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1436 a_164_188# a_111_164# Vdd Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1437 a_166_155# a_42_11# a_164_188# Vdd pmos w=27 l=2
++  ad=216 pd=70 as=0 ps=0
+M1438 a_181_188# a_42_11# a_166_155# Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1439 Vdd a_111_164# a_181_188# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1440 Vdd a_453_160# a_446_168# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1441 a_453_160# a_385_329# Vdd Vdd pmos w=13 l=2
++  ad=195 pd=82 as=0 ps=0
+M1442 Vdd a_395_322# a_453_160# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1443 a_38_322# A1 Vss Vss nmos w=15 l=2
++  ad=120 pd=46 as=0 ps=0
+M1444 Vss a_45_183# a_38_322# Vss nmos w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1445 a_94_166# a_38_322# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1446 Vss a_118_160# a_111_164# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1447 a_133_162# a_102_131# Vss Vss nmos w=11 l=2
++  ad=55 pd=32 as=0 ps=0
+M1448 a_118_160# a_138_157# a_133_162# Vss nmos w=11 l=2
++  ad=67 pd=36 as=0 ps=0
+M1449 a_453_160# a_373_322# Vdd Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1450 a_517_187# a_450_241# Vdd Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1451 a_524_187# a_522_181# a_517_187# Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1452 a_494_250# a_446_168# a_524_187# Vdd pmos w=28 l=2
++  ad=224 pd=72 as=0 ps=0
+M1453 a_541_187# a_446_168# a_494_250# Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1454 a_548_187# a_522_181# a_541_187# Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1455 Vdd a_450_241# a_548_187# Vdd pmos w=28 l=2
++  ad=0 pd=0 as=0 ps=0
+M1456 a_429_330# A6 Vdd Vdd pmos w=24 l=2
++  ad=192 pd=64 as=0 ps=0
+M1457 Vdd a_593_178# a_429_330# Vdd pmos w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1458 a_166_155# a_111_164# Vss Vss nmos w=15 l=2
++  ad=120 pd=46 as=0 ps=0
+M1459 Vss a_42_11# a_166_155# Vss nmos w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1460 Vss a_453_160# a_446_168# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1461 a_468_161# a_385_329# Vss Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1462 a_475_161# a_395_322# a_468_161# Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1463 a_453_160# a_373_322# a_475_161# Vss nmos w=13 l=2
++  ad=77 pd=40 as=0 ps=0
+M1464 a_593_178# a_621_179# a_614_203# Vdd pmos w=27 l=2
++  ad=189 pd=70 as=294 ps=136
+M1465 a_621_179# a_614_203# a_593_178# Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1466 Vdd add_sub a_621_179# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1467 a_614_203# B6 Vdd Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1468 Vss a_450_241# a_494_250# Vss nmos w=10 l=2
++  ad=0 pd=0 as=142 ps=70
+M1469 a_494_250# a_522_181# Vss Vss nmos w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1470 Vss a_446_168# a_494_250# Vss nmos w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1471 a_589_155# A6 Vss Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1472 a_429_330# a_593_178# a_589_155# Vss nmos w=20 l=2
++  ad=112 pd=54 as=0 ps=0
+M1473 a_624_158# a_621_179# Vss Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1474 a_593_178# a_614_203# a_624_158# Vss nmos w=12 l=2
++  ad=87 pd=40 as=0 ps=0
+M1475 a_621_179# B6 a_593_178# Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1476 Vss add_sub a_621_179# Vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1477 a_614_203# B6 Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1478 Vss B0 a_31_123# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1479 a_56_128# add_sub Vss Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1480 a_38_32# B0 a_56_128# Vss nmos w=9 l=2
++  ad=87 pd=40 as=0 ps=0
+M1481 a_76_128# a_31_123# a_38_32# Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1482 Vss a_56_128# a_76_128# Vss nmos w=12 l=2
++  ad=0 pd=0 as=0 ps=0
+M1483 a_111_123# a_38_32# a_102_131# Vss nmos w=20 l=2
++  ad=100 pd=50 as=112 ps=54
+M1484 Vss A0 a_111_123# Vss nmos w=20 l=2
++  ad=0 pd=0 as=0 ps=0
+M1485 a_146_125# a_92_22# a_137_130# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1486 Vss a_102_131# a_146_125# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1487 a_137_39# a_137_130# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1488 Vdd B0 a_31_123# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=294 ps=136
+M1489 a_56_128# add_sub Vdd Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1490 a_38_32# a_31_123# a_56_128# Vdd pmos w=18 l=2
++  ad=189 pd=70 as=0 ps=0
+M1491 a_31_123# a_56_128# a_38_32# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1492 Vss a_138_157# a_135_7# Vss nmos w=9 l=2
++  ad=0 pd=0 as=57 ps=32
+M1493 a_456_92# a_389_22# Vss Vss nmos w=6 l=2
++  ad=96 pd=56 as=0 ps=0
+M1494 Vss a_447_88# a_456_92# Vss nmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1495 a_456_92# a_437_119# Vss Vss nmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1496 Vss a_427_113# a_456_92# Vss nmos w=6 l=2
++  ad=0 pd=0 as=0 ps=0
+M1497 a_102_131# a_38_32# Vdd Vdd pmos w=24 l=2
++  ad=192 pd=64 as=0 ps=0
+M1498 Vdd A0 a_102_131# Vdd pmos w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1499 a_137_130# a_92_22# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1500 Vdd a_102_131# a_137_130# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1501 a_137_39# a_137_130# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1502 Vdd a_138_157# a_135_7# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=116 ps=50
+M1503 a_532_124# a_429_330# a_518_92# Vss nmos w=13 l=2
++  ad=65 pd=36 as=77 ps=40
+M1504 a_539_124# a_395_322# a_532_124# Vss nmos w=13 l=2
++  ad=65 pd=36 as=0 ps=0
+M1505 Vss a_467_229# a_539_124# Vss nmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1506 a_437_119# a_518_92# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1507 a_583_125# a_522_181# a_574_130# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1508 Vss a_429_330# a_583_125# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1509 a_427_113# a_574_130# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1510 a_435_92# a_427_113# Vdd Vdd pmos w=18 l=2
++  ad=90 pd=46 as=0 ps=0
+M1511 a_442_92# a_437_119# a_435_92# Vdd pmos w=18 l=2
++  ad=90 pd=46 as=0 ps=0
+M1512 a_449_92# a_447_88# a_442_92# Vdd pmos w=18 l=2
++  ad=90 pd=46 as=0 ps=0
+M1513 a_456_92# a_389_22# a_449_92# Vdd pmos w=18 l=2
++  ad=179 pd=66 as=0 ps=0
+M1514 a_466_85# a_389_22# a_456_92# Vdd pmos w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1515 a_473_85# a_447_88# a_466_85# Vdd pmos w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1516 a_480_85# a_437_119# a_473_85# Vdd pmos w=25 l=2
++  ad=125 pd=60 as=0 ps=0
+M1517 Vdd a_427_113# a_480_85# Vdd pmos w=25 l=2
++  ad=0 pd=0 as=0 ps=0
+M1518 Vdd a_429_330# a_518_92# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=195 ps=82
+M1519 a_537_42# a_587_20# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1520 a_657_123# a_583_31# Vss Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1521 a_439_322# A7 a_657_123# Vss nmos w=20 l=2
++  ad=112 pd=54 as=0 ps=0
+M1522 a_518_92# a_395_322# Vdd Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1523 Vdd a_467_229# a_518_92# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1524 a_437_119# a_518_92# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1525 a_574_130# a_522_181# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1526 Vdd a_429_330# a_574_130# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1527 a_427_113# a_574_130# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1528 a_537_42# a_587_20# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1529 a_439_322# a_583_31# Vdd Vdd pmos w=24 l=2
++  ad=192 pd=64 as=0 ps=0
+M1530 Vdd A7 a_439_322# Vdd pmos w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1531 a_40_44# a_38_32# Vdd Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1532 a_42_11# A0 a_40_44# Vdd pmos w=27 l=2
++  ad=216 pd=70 as=0 ps=0
+M1533 a_57_44# A0 a_42_11# Vdd pmos w=27 l=2
++  ad=135 pd=64 as=0 ps=0
+M1534 Vdd a_38_32# a_57_44# Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1535 a_92_22# a_42_11# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1536 S0 a_117_35# a_110_59# Vdd pmos w=27 l=2
++  ad=189 pd=70 as=294 ps=136
+M1537 a_117_35# a_110_59# S0 Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1538 Vdd a_137_39# a_117_35# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1539 a_110_59# a_135_7# Vdd Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1540 a_138_157# add_sub Vdd Vdd pmos w=16 l=2
++  ad=168 pd=64 as=0 ps=0
+M1541 Vdd add_sub a_138_157# Vdd pmos w=24 l=2
++  ad=0 pd=0 as=0 ps=0
+M1542 a_389_22# a_383_34# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1543 a_383_34# a_385_329# Vdd Vdd pmos w=17 l=2
++  ad=272 pd=100 as=0 ps=0
+M1544 Vdd a_373_322# a_383_34# Vdd pmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1545 a_383_34# a_395_322# Vdd Vdd pmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1546 Vdd a_429_330# a_383_34# Vdd pmos w=17 l=2
++  ad=0 pd=0 as=0 ps=0
+M1547 a_42_11# a_38_32# Vss Vss nmos w=15 l=2
++  ad=120 pd=46 as=0 ps=0
+M1548 Vss A0 a_42_11# Vss nmos w=15 l=2
++  ad=0 pd=0 as=0 ps=0
+M1549 a_92_22# a_42_11# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1550 S7 a_473_35# a_466_59# Vdd pmos w=27 l=2
++  ad=189 pd=70 as=294 ps=136
+M1551 a_473_35# a_466_59# S7 Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1552 Vdd a_493_39# a_473_35# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1553 a_466_59# a_456_92# Vdd Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1554 a_534_18# a_537_42# Vdd Vdd pmos w=13 l=2
++  ad=104 pd=42 as=0 ps=0
+M1555 Vdd a_439_322# a_534_18# Vdd pmos w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1556 a_120_14# a_117_35# Vss Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1557 S0 a_110_59# a_120_14# Vss nmos w=12 l=2
++  ad=87 pd=40 as=0 ps=0
+M1558 a_117_35# a_135_7# S0 Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1559 Vss a_137_39# a_117_35# Vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1560 a_110_59# a_135_7# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1561 a_138_157# add_sub Vss Vss nmos w=10 l=2
++  ad=80 pd=36 as=0 ps=0
+M1562 Vss add_sub a_138_157# Vss nmos w=10 l=2
++  ad=0 pd=0 as=0 ps=0
+M1563 a_389_22# a_383_34# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1564 a_422_11# a_385_329# Vss Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1565 a_429_11# a_373_322# a_422_11# Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1566 a_436_11# a_395_322# a_429_11# Vss nmos w=20 l=2
++  ad=100 pd=50 as=0 ps=0
+M1567 a_383_34# a_429_330# a_436_11# Vss nmos w=20 l=2
++  ad=112 pd=54 as=0 ps=0
+M1568 a_476_14# a_473_35# Vss Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1569 S7 a_466_59# a_476_14# Vss nmos w=12 l=2
++  ad=87 pd=40 as=0 ps=0
+M1570 a_473_35# a_456_92# S7 Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1571 Vss a_493_39# a_473_35# Vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1572 a_466_59# a_456_92# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1573 a_493_39# a_534_18# Vdd Vdd pmos w=18 l=2
++  ad=116 pd=50 as=0 ps=0
+M1574 a_589_43# a_583_31# Vdd Vdd pmos w=28 l=2
++  ad=140 pd=66 as=0 ps=0
+M1575 a_587_20# A7 a_589_43# Vdd pmos w=28 l=2
++  ad=166 pd=70 as=0 ps=0
+M1576 a_583_31# a_621_35# a_614_59# Vdd pmos w=27 l=2
++  ad=189 pd=70 as=294 ps=136
+M1577 a_621_35# a_614_59# a_583_31# Vdd pmos w=18 l=2
++  ad=144 pd=52 as=0 ps=0
+M1578 Vdd add_sub a_621_35# Vdd pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1579 a_614_59# B7 Vdd Vdd pmos w=27 l=2
++  ad=0 pd=0 as=0 ps=0
+M1580 a_543_18# a_537_42# a_534_18# Vss nmos w=11 l=2
++  ad=55 pd=32 as=67 ps=36
+M1581 Vss a_439_322# a_543_18# Vss nmos w=11 l=2
++  ad=0 pd=0 as=0 ps=0
+M1582 a_493_39# a_534_18# Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+M1583 a_587_20# a_583_31# Vss Vss nmos w=8 l=2
++  ad=81 pd=40 as=0 ps=0
+M1584 Vss A7 a_587_20# Vss nmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1585 a_624_14# a_621_35# Vss Vss nmos w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1586 a_583_31# a_614_59# a_624_14# Vss nmos w=12 l=2
++  ad=87 pd=40 as=0 ps=0
+M1587 a_621_35# B7 a_583_31# Vss nmos w=9 l=2
++  ad=72 pd=34 as=0 ps=0
+M1588 Vss add_sub a_621_35# Vss nmos w=9 l=2
++  ad=0 pd=0 as=0 ps=0
+M1589 a_614_59# B7 Vss Vss nmos w=9 l=2
++  ad=57 pd=32 as=0 ps=0
+C0 a_138_157# a_102_131# 3.4fF
+C1 a_373_322# a_385_329# 3.4fF
+C2 add_sub gnd! 4.7fF
+C3 Vdd gnd! 7.2fF
+C4 Vss gnd! 6.4fF
